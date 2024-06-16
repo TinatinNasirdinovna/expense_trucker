@@ -1,0 +1,22 @@
+@import './styles/Expenses.scss';
+@import './styles/ExpenseItem.scss';
+@import './styles/ExpenseDate.scss';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  // background:rgba(30, 17, 17, 0.93);
+}
