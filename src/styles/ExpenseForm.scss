@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  align-items: flex-end;
+  .expenseForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    &--input {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      label {
+        font-size: 22px;
+        font-weight: 700;
+      }
+      input {
+        width: 500px;
+        height: 50px;
+        border-radius: 12px;
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 22px;
+      }
+    }
+    &--btn {
+      position: relative;
+      button {
+        width: 226px;
+        height: 68px;
+        position: absolute;
+        bottom: -20px;
+        right: -4px;
+        color: white;
+        font-size: 20px;
+        background-color: rgb(69, 26, 108);
+        border: none;
+        outline: none;
+        border-radius: 12px;
+        margin-bottom: -20px;
+      }
+    }
+  }
+}
