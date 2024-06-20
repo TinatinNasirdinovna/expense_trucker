@@ -29,6 +29,8 @@ const ExpenseForm = (props) => {
         setAmount('')
         setDate('')
     }
+
+    //condsole.log(props)
     return (
         <form onSubmit={submitHandler}>
            <div className="expenseForm">
