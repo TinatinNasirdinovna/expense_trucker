@@ -1,6 +1,4 @@
 form {
-  display: flex;
-  align-items: flex-end;
   .expenseForm {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +38,44 @@ form {
         outline: none;
         border-radius: 12px;
         margin-bottom: -20px;
+      }
+    }
+  }
+}
+
+
+@media (max-width:991px) {
+  form {
+    .expenseForm{
+      &--btn {
+        position: relative;
+        button {
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:693px) {
+  form {
+    .expenseForm{
+      &--input {
+        input {
+          width: 380px;
+        }
+      }
+      &--btn {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          position: relative;
+          width: 160px;
+          height: 50px;
+          font-size: 17px;
+        }
       }
     }
   }

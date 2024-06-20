@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const ExpenseForm = (props) => {
     const [title, setTitle] = useState('')
     const [amount, setAmount] = useState('')
@@ -15,10 +16,11 @@ const ExpenseForm = (props) => {
 
     const dateChangHandler = (e) => {
         setDate(e.target.value)
-    }
+  
 
     const submitHandler = (e) => {
         e.preventDefault()
+
         const data = {
             title, 
             amount,
